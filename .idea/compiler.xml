@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
         <module name="spring-cloud-practice-config" />
         <module name="spring-cloud-practice-consumer" />
         <module name="spring-cloud-practice-core" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
       <module name="spring-cloud-practice" target="1.8" />
       <module name="spring-cloud-practice-config" target="1.8" />
       <module name="spring-cloud-practice-consumer" target="1.8" />
